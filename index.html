@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author name" content="theDRB">
+    <meta name="desciption" content="calculator">
+    <title>calculator</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+    <div class="title">
+        <p  id="title">Cal-Ca-Later</p>
+    </div>
+    <div class="container">
+        <div class="screen">
+            <div class="screenInput">
+                <p id="inputScreen"></p>
+            </div>
+            <div class="screenOutput" >
+                <p>=</p>
+                <p id="outputScreen"></p>
+            </div>
+        </div>
+        <div class="buttonContainer">
+            <div class="numberContainer">
+                <div class="button" onclick="action1()">
+                    <p>1</p>
+                </div>
+                <div class="button" onclick="action2()">
+                    <p>2</p>
+                </div>
+                <div class="button" onclick="action3()">
+                    <p>3</p>
+                </div>
+                <div class="button" onclick="action4()">
+                    <p>4</p>
+                </div>
+                <div class="button" onclick="action5()">
+                    <p>5</p>
+                </div>
+                <div class="button" onclick="action6()">
+                    <p>6</p>
+                </div>
+                <div class="button" onclick="action7()">
+                    <p>7</p>
+                </div>
+                <div class="button" onclick="action8()">
+                    <p>8</p>
+                </div>
+                <div class="button" onclick="action9()">
+                    <p>9</p>
+                </div>
+                <!-- <div class="button" onclick="action9()">
+                <p></p>
+            </div> -->
+                <div class="button" onclick="action0()">
+                    <p>0</p>
+                </div>
+            </div>
+
+            <div class="actionContainer">
+                <div class="actionButton" onclick="actionAdd()">
+                    <p>+</p>
+                </div>
+                <div class="actionButton" onclick="actionSubtract()">
+                    <p>-</p>
+                </div>
+                <div class="actionButton" onclick="actionDivide()">
+                    <p>/</p>
+                </div>
+                <div class="actionButton" onclick="actionMultiply()">
+                    <p>*</p>
+                </div>
+                <div class="actionButton" onclick="actionClear()">
+                    <p>clear</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
